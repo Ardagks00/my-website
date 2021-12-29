@@ -18,9 +18,23 @@
    background-color: #2a2139;
 }
 
+#repositories_info {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: large;
+    text-align: start;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
 
 
+#jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: large;
 
+}
 
 .fa{
    padding: 20px;
