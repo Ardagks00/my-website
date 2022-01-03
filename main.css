@@ -13,7 +13,7 @@
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center center;
- background: url(star_platinium.png);
+ background: url(background.jpg);
  background-size: cover;
  background-color: #2a2139;
 }
@@ -45,7 +45,7 @@
  margin: 5px 2px;
  border-radius: 50%;
 
- background: #2A131F;
+ background: rgb(36, 1, 56);
  color: #EDE5A6;
 }
 
@@ -82,3 +82,4 @@
     border-color: transparent
   }
 }
+
