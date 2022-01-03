@@ -1,84 +1,84 @@
 #textBody {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: large;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: large;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
 } 
 
 #backgroundBody {
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center;
-   background: url(star_platinium.png);
-   background-size: cover;
-   background-color: #2a2139;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background: url(star_platinium.png);
+ background-size: cover;
+ background-color: #2a2139;
 }
 
 #repositories_info {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: large;
-    text-align: start;
-    position: absolute;
-    top: 8%;
-    left: 5%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: large;
+  text-align: start;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
 }
 
 
 #jetbrains {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: large;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: large;
 
 }
 
 .fa{
-   padding: 20px;
-   font-size: 30px;
-   width: 30px;
-   text-align: center;
-   text-decoration: none;
-   margin: 5px 2px;
-   border-radius: 50%;
+ padding: 20px;
+ font-size: 30px;
+ width: 30px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+ border-radius: 50%;
 
-   background: #2A131F;
-   color: #EDE5A6;
+ background: #2A131F;
+ color: #EDE5A6;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .wrapper {
-    height: 100vh;
-    /*This part is important for centering*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 81ch;
+  animation: typing 3s steps(80), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
   }
-  
-  .typing-demo {
-    width: 88ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
+}
