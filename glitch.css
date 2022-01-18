@@ -5,7 +5,7 @@ body {
 #container {
     top:50%;
     left:20%;
-    font-family: monospace;
+    font-family: 'JetBrains Mono';
     transform: translate( 0%, 0%);
     position: sticky;
 
@@ -14,7 +14,7 @@ body {
 h1 {
 	text-align: center;
 	color: #fff;
-	font-size: 5em;
+	font-size: 4em;
 	margin: 0;
 	line-height: 0;
 	animation: glitch1 2.5s infinite;
