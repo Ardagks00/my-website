@@ -62,7 +62,7 @@
 }
 
 .typing-demo {
-  width: 104ch;
+  width: 107ch;
   animation: typing 3s steps(80), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
