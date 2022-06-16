@@ -1,5 +1,5 @@
 User-agent: *
-Allow: index.html
+Allow: /index.html
 Disallow: /
 Disallow: /assets/
 Disallow: /assets/bootstrap/
@@ -8,4 +8,4 @@ Disallow: /assets/bootstrap/css/
 Disallow: /assets/js/
 Disallow: /assets/fonts/
 Disallow: /assets/img/
-Disallow: robots.txt
+Disallow: /robots.txt
