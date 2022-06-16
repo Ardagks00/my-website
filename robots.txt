@@ -1,0 +1,11 @@
+User-agent: *
+Allow: index.html
+Disallow: /
+Disallow: /assets/
+Disallow: /assets/bootstrap/
+Disallow: /assets/bootstrap/js/
+Disallow: /assets/bootstrap/css/
+Disallow: /assets/js/
+Disallow: /assets/fonts/
+Disallow: /assets/img/
+Disallow: robots.txt
