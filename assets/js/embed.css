@@ -5,13 +5,13 @@
  * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
  */
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
     text-align: left;
     direction: ltr
 }
 
 .gist {
-    --color-canvas-default-transparent: rgba(255,255,255,0);
+    --color-canvas-default-transparent: rgba(255,255,255,100);
     --color-page-header-bg: #f6f8fa;
     --color-marketing-icon-primary: #218bff;
     --color-marketing-icon-secondary: #54aeff;
@@ -293,12 +293,12 @@
     --color-fg-muted: #57606a;
     --color-fg-subtle: #6e7781;
     --color-fg-on-emphasis: #ffffff;
-    --color-canvas-default: #ffffff;
+    --color-canvas-default: #4b4848;
     --color-canvas-overlay: #ffffff;
     --color-canvas-inset: #f6f8fa;
-    --color-canvas-subtle: #f6f8fa;
-    --color-border-default: #d0d7de;
-    --color-border-muted: hsla(210,18%,87%,1);
+    --color-canvas-subtle: #242424;
+    --color-border-default: #000000;
+    --color-border-muted: hsl(220, 3%, 22%);
     --color-border-subtle: rgba(27,31,36,0.15);
     --color-shadow-small: 0 1px 0 rgba(27,31,36,0.04);
     --color-shadow-medium: 0 3px 6px rgba(140,149,159,0.15);
@@ -835,7 +835,7 @@
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
-    background-color: var(--color-canvas-subtle);
+    background-color: hsl(0deg 0% 14%);
     border-radius: 6px
 }
 
@@ -956,12 +956,12 @@
 }
 
 .gist .pl-ii {
-    color: #fafbfc;
+    color: #000000;
     background-color: #b31d28
 }
 
 .gist .pl-c2 {
-    color: #fafbfc;
+    color: #000000;
     background-color: #d73a49
 }
 
@@ -995,7 +995,7 @@
 
 .gist .pl-md {
     color: #b31d28;
-    background-color: #ffeef0
+    background-color: #000000
 }
 
 .gist .pl-mi1 {
@@ -1909,7 +1909,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 1.4;
-    color: #333;
+    color: white;
     background: var(--color-canvas-default);
     border: 0
 }

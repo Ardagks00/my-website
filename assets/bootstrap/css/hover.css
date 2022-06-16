@@ -1,0 +1,11 @@
+.repo:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out 0s;
+    transition: .3s ease-out 0s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out 0s;
+    transition: .5s ease-in 0s;
+}

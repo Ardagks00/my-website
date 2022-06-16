@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono&amp;display=swap');
+body .gist .gist-file {
+    margin-bottom: 0;
+    border: 1px groove #42dca3;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+body .gist .gist-data{
+    border-bottom: none;
+    border-radius: 10px;
+    background-color: #262626;
+    color: white;
+
+}
+
+body .gist .gist-data .highlight pre{
+    background-color: #191919;
+}
+
+body .gist .gist-data img{
+    background-color: #262626;
+}
+
+body .gist .blob-wrapper {
+    border-radius: 0;
+}
+
+body .gist .highlight {
+    background-color: #262626;
+    font-family: 'JetBrains Mono';
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 16px;
+}
+
+
+body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+body .gist tr:first-child td {
+    padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+}
+
+body .gist .blob-num {
+    color: #262626;
+    background-color: #ffffff;
+    pointer-events: none;
+}
+
+body .gist .gist-meta {
+    display: none;
+}
+
+
