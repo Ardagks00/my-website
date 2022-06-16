@@ -1,11 +1,33 @@
+.repo{
+    transform: scale(1.0);
+    transition: transform .0s;
+}
+
+
 .repo:hover{
     transform: scale(1.1);
-    transition: .3s ease-in-out 0s;
-    transition: .3s ease-out 0s;
+    transition: transform .5s;
+
+    color: #111;
+    background: #32a97d;
+    box-shadow: 0 0 60px #32a97d;
 }
 
 .btn:hover{
     transform: scale(1.1);
     transition: .5s ease-in-out 0s;
     transition: .5s ease-in 0s;
+
+
+    color: #111;
+    background: #32a97d;
+    box-shadow: 0 0 40px #32a97d;
+}
+
+
+
+.about{
+    color: #111;
+    background: #32a97d;
+    box-shadow: 0 0 900px #32a97d;
 }
