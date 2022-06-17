@@ -30,6 +30,13 @@ body .gist .gist-data img{
     background-color: #262626;
 }
 
+body .gist .gist-data img:hover{
+    background-color: #262626;
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    transform-style: inherit;
+}
+
 body .gist .blob-wrapper {
     border-radius: 0;
 }
